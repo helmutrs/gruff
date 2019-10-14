@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
     s.platform = 'java'
     s.add_dependency 'rmagick4j', '~> 0.3', '>= 0.3.9'
   else
-    s.add_dependency 'rmagick', '~> 4.0.0', '>= 4.0.9'
+    s.add_dependency 'rmagick', '~> 4.0.0', '>= 4.0.0'
   end
   s.add_development_dependency('rake')
   s.add_development_dependency('minitest-reporters')
